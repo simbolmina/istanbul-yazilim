@@ -5,6 +5,7 @@ import SearchDropdown from "./SearchDropdown";
 import ButtonPrimary from "components/Button/ButtonPrimary";
 import MenuBar from "components/MenuBar/MenuBar";
 import DarkModeContainer from "containers/DarkModeContainer/DarkModeContainer";
+import { Link } from "react-router-dom";
 
 export interface MainNav1Props {
   isTop: boolean;
@@ -27,9 +28,9 @@ const MainNav1: FC<MainNav1Props> = ({ isTop }) => {
             <DarkModeContainer />
             {/* <SearchDropdown /> */}
             <div className="px-1" />
-            <a href="/contact">
+            <Link to="/contact">
               <ButtonPrimary>İletişim</ButtonPrimary>
-            </a>
+            </Link>
           </div>
           <div className="flex items-center xl:hidden">
             {/* <ButtonPrimary href="/login">Sign up</ButtonPrimary> */}

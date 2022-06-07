@@ -2,7 +2,7 @@ import React from "react";
 import ButtonClose from "components/ButtonClose/ButtonClose";
 import Logo from "components/Logo/Logo";
 import { Disclosure } from "@headlessui/react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { NavItemType } from "./NavigationItem";
 import DarkModeContainer from "containers/DarkModeContainer/DarkModeContainer";
 import { NAVIGATION_DEMO } from "data/navigation";
@@ -155,8 +155,8 @@ const NavMobile: React.FC<NavMobileProps> = ({
         <Logo />
         <div className="flex flex-col mt-5 text-neutral-700 dark:text-neutral-300 text-sm">
           <span>
-            Discover the most outstanding articles on all topics of life. Write
-            your stories and share them
+            Kullanıcı deneyimi yüksek web sitesi tasarımları ve mobil
+            uygulamalar için doğru adrese geldiniz.
           </span>
 
           <div className="flex justify-between items-center mt-4">
@@ -174,9 +174,9 @@ const NavMobile: React.FC<NavMobileProps> = ({
         {data.map(_renderItem)}
       </ul>
       <div className="flex items-center justify-between py-6 px-5 space-x-4">
-        <a href="/contact">
+        <Link to="/contact">
           <ButtonPrimary>İletişim</ButtonPrimary>
-        </a>
+        </Link>
       </div>
     </div>
   );
