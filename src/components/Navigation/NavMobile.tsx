@@ -174,8 +174,8 @@ const NavMobile: React.FC<NavMobileProps> = ({
         {data.map(_renderItem)}
       </ul>
       <div className="flex items-center justify-between py-6 px-5 space-x-4">
-        <a href="/#" target="_blank" rel="noopener noreferrer">
-          <ButtonPrimary>Get Template</ButtonPrimary>
+        <a href="/contact">
+          <ButtonPrimary>İletişim</ButtonPrimary>
         </a>
       </div>
     </div>

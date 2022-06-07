@@ -27,6 +27,7 @@ import SectionMagazine7 from "./SectionMagazine7";
 import SectionMagazine8 from "./SectionMagazine8";
 import SectionMagazine9 from "./SectionMagazine9";
 import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
+import { BANKS } from "data/banks";
 
 //
 const POSTS: PostDataType[] = DEMO_POSTS;
@@ -62,7 +63,7 @@ const PageHome: React.FC = () => {
             <SectionSliderNewAuthors
               heading="Hizmetlerimiz"
               subHeading="Web ve Mobil uygulamalarınız için ihtiyacınız olan her şeyi burada bulabilirsiniz."
-              authors={DEMO_AUTHORS.filter((_, i) => i < 10)}
+              authors={BANKS.filter((_, i) => i < 10)}
               uniqueSliderClass="PageHome"
             />
           </div>

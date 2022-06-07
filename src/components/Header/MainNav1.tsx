@@ -27,10 +27,12 @@ const MainNav1: FC<MainNav1Props> = ({ isTop }) => {
             <DarkModeContainer />
             {/* <SearchDropdown /> */}
             <div className="px-1" />
-            <ButtonPrimary href="#contact">İletişim</ButtonPrimary>
+            <a href="/contact">
+              <ButtonPrimary>İletişim</ButtonPrimary>
+            </a>
           </div>
           <div className="flex items-center xl:hidden">
-            <ButtonPrimary href="/login">Sign up</ButtonPrimary>
+            {/* <ButtonPrimary href="/login">Sign up</ButtonPrimary> */}
             <div className="px-1" />
             <MenuBar />
           </div>

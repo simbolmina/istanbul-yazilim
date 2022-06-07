@@ -1,4 +1,4 @@
-import __authors from "./jsons/__users.json";
+import __services from "./jsons/__services.json";
 import a1 from "./banks/01.png";
 import a2 from "./banks/02.png";
 import a3 from "./banks/03.png";
@@ -13,7 +13,7 @@ import { PostAuthorType } from "./types";
 
 let as = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10];
 
-const BANKS: PostAuthorType[] = __authors.map((item, index) => ({
+const BANKS: PostAuthorType[] = __services.map((item, index) => ({
   ...item,
   avatar: as[index],
 }));
