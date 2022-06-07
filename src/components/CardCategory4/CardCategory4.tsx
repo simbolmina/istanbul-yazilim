@@ -47,11 +47,12 @@ const CardCategory4: FC<CardCategory4Props> = ({
     // >
     <>
       <div
-        className={`flex-shrink-0 relative w-full aspect-w-7 aspect-h-5 h-0 rounded-3xl overflow-hidden group`}
+        className={`flex-shrink-0 relative w-full aspect-w-7 aspect-h-5 h-0 rounded-3xl overflow-hidden group `}
       >
         <NcImage
           src={thumbnail}
-          className="object-cover w-full h-full rounded-2xl"
+          // className="object-cover w-full h-full rounded-2x1"
+          className="object-none w-full h-full rounded-2x1"
         />
         <div>
           {/* {index && (
