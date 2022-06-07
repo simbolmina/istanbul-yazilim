@@ -1,27 +1,27 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
-import SocialsShare from 'components/SocialsShare/SocialsShare';
-import Avatar from 'components/Avatar/Avatar';
-import { SinglePageType } from 'containers/PageSingle/PageSingle';
-import BookmarkContainer from 'containers/BookmarkContainer/BookmarkContainer';
-import PostCardLikeContainer from 'containers/PostCardLikeContainer/PostCardLikeContainer';
-import { PageItemType } from 'app/pages/pages';
-import MainNav2Logged from './MainNav2Logged';
-import MainNav2 from './MainNav2';
-import MainNav1 from './MainNav1';
+import React, { FC, useEffect, useRef, useState } from "react";
+import SocialsShare from "components/SocialsShare/SocialsShare";
+import Avatar from "components/Avatar/Avatar";
+import { SinglePageType } from "containers/PageSingle/PageSingle";
+import BookmarkContainer from "containers/BookmarkContainer/BookmarkContainer";
+import PostCardLikeContainer from "containers/PostCardLikeContainer/PostCardLikeContainer";
+import { PageItemType } from "app/pages/pages";
+import MainNav2Logged from "./MainNav2Logged";
+import MainNav2 from "./MainNav2";
+import MainNav1 from "./MainNav1";
 
 export interface HeaderProps {
-  mainNavStyle?: 'style1' | 'style2' | 'style2Logedin';
+  mainNavStyle?: "style1" | "style2" | "style2Logedin";
   currentPage: PageItemType;
 }
 
-const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
+const Header: FC<HeaderProps> = ({ mainNavStyle = "style1", currentPage }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const mainMenuRef = useRef<HTMLDivElement>(null);
   const progressBarRef = useRef<HTMLDivElement>(null);
   //
   let prevScrollpos = window.pageYOffset;
   //
-  const showSingleMenu = currentPage.type === '/single/:slug';
+  const showSingleMenu = currentPage.type === "/single/:slug";
   //
   const [isSingleHeaderShowing, setIsSingleHeaderShowing] = useState(false);
   const [isTop, setIsTop] = useState(true);
@@ -41,16 +41,16 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
     if (showSingleMenu) {
       setTimeout(() => {
         //  BECAUSE DIV HAVE TRANSITION 100ms
-        window.addEventListener('scroll', showHideSingleHeade);
+        window.addEventListener("scroll", showHideSingleHeade);
       }, 200);
     } else {
-      window.removeEventListener('scroll', showHideSingleHeade);
+      window.removeEventListener("scroll", showHideSingleHeade);
     }
   }, [showSingleMenu]);
 
   const handleProgressIndicator = () => {
     const entryContent = document.querySelector(
-      '#single-entry-content'
+      "#single-entry-content"
     ) as HTMLDivElement | null;
 
     if (!showSingleMenu || !entryContent) {
@@ -67,7 +67,7 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
 
     scrolled = scrolled > 100 ? 100 : scrolled;
 
-    progressBarRef.current.style.width = scrolled + '%';
+    progressBarRef.current.style.width = scrolled + "%";
   };
 
   const showHideSingleHeade = () => {
@@ -97,7 +97,7 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
 
     // SHOW _ HIDE MAIN MENU
     if (prevScrollpos > currentScrollPos) {
-      containerRef.current.style.top = '0';
+      containerRef.current.style.top = "0";
     } else {
       containerRef.current.style.top = `-${mainMenuHeight + 2}px`;
     }
@@ -149,19 +149,19 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
     );
   };
 
-  // const renderMainNav = () => {
-  //   switch (mainNavStyle) {
-  //     case "style1":
-  //       return <MainNav1 isTop={isTop} />;
-  //     case "style2":
-  //       return <MainNav2 />;
-  //     case "style2Logedin":
-  //       return <MainNav2Logged />;
+  const renderMainNav = () => {
+    switch (mainNavStyle) {
+      case "style1":
+        return <MainNav1 isTop={isTop} />;
+      case "style2":
+        return <MainNav2 />;
+      case "style2Logedin":
+        return <MainNav2Logged />;
 
-  //     default:
-  //       return <MainNav1 isTop={isTop} />;
-  //   }
-  // };
+      default:
+        return <MainNav1 isTop={isTop} />;
+    }
+  };
 
   return (
     <div
@@ -169,12 +169,10 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = 'style1', currentPage }) => {
       ref={containerRef}
     >
       {/* RENDER MAIN NAVIGATION */}
-      <div ref={mainMenuRef}>
-        <MainNav1 isTop={isTop} />
-      </div>
+      <div ref={mainMenuRef}>{renderMainNav()}</div>
 
       {/* RENDER PROGESSBAR FOR SINGLE PAGE */}
-      {/* {showSingleMenu && renderSingleHeader()} */}
+      {showSingleMenu && renderSingleHeader()}
     </div>
   );
 };
