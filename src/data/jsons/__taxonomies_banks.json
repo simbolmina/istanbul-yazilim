@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Yapı Kredi",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/banks/01.png",
+    "count": 13,
+    "color": "indigo"
+  },
+  {
+    "id": 2,
+    "name": "Garanti BBVA",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/banks/02.png",
+    "count": 16,
+    "color": "red"
+  },
+  {
+    "id": 3,
+    "name": "HalkBank",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/03.png",
+    "count": 15,
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "ING Bank",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/04.png",
+    "count": 21,
+    "color": "pink"
+  },
+  {
+    "id": 5,
+    "name": "QNB Finansbank",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/05.png",
+    "count": 16,
+    "color": "pink"
+  },
+  {
+    "id": 6,
+    "name": "Akbank",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/06.png",
+    "count": 25,
+    "color": "blue"
+  },
+  {
+    "id": 7,
+    "name": "Türkiye İş Bankası",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/07.png",
+    "count": 14,
+    "color": "gray"
+  },
+  {
+    "id": 8,
+    "name": "Vakıfbank",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/08.png",
+    "count": 4,
+    "color": "purple"
+  },
+  {
+    "id": 9,
+    "name": "Ziraat Bankası",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/09.png",
+    "count": 7,
+    "color": "red"
+  },
+  {
+    "id": 10,
+    "name": "Türkiye Ekonomi Bankası",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/10.png",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 11,
+    "name": "Kuveyt Türk",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/public/images/banks/11.png",
+    "count": 20,
+    "color": "indigo"
+  },
+  {
+    "id": 12,
+    "name": "Toys",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1563396983906-b3795482a59a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRveXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "count": 22,
+    "color": "indigo"
+  },
+  {
+    "id": 13,
+    "name": "Sports",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1604935067269-27c7e8b36618?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "count": 15,
+    "color": "green"
+  },
+  {
+    "id": 14,
+    "name": "Automotive",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1567978581684-802453e2e2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "count": 9,
+    "color": "green"
+  },
+  {
+    "id": 15,
+    "name": "Computers",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1532529867795-3c83442c1e5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 16,
+    "name": "Design",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1536329583941-14287ec6fc4e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRlc2lnbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "count": 15,
+    "color": "indigo"
+  },
+  {
+    "id": 17,
+    "name": "Beauty",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "count": 27,
+    "color": "red"
+  },
+  {
+    "id": 18,
+    "name": "Books",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "count": 25,
+    "color": "pink"
+  },
+  {
+    "id": 19,
+    "name": "life Style",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "count": 18,
+    "color": "green"
+  },
+
+  {
+    "id": 20,
+    "name": "Graphic Design",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "https://images.unsplash.com/photo-1619616713221-a511d7037e06?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "count": 25,
+    "color": "gray"
+  }
+]

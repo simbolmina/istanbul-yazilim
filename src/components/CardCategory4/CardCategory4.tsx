@@ -40,11 +40,12 @@ const CardCategory4: FC<CardCategory4Props> = ({
   };
 
   return (
-    <Link
-      to={href}
-      className={`nc-CardCategory4 flex flex-col ${className}`}
-      data-nc-id="CardCategory4"
-    >
+    // <Link
+    //   to={href}
+    //   className={`nc-CardCategory4 flex flex-col ${className}`}
+    //   data-nc-id="CardCategory4"
+    // >
+    <>
       <div
         className={`flex-shrink-0 relative w-full aspect-w-7 aspect-h-5 h-0 rounded-3xl overflow-hidden group`}
       >
@@ -53,33 +54,34 @@ const CardCategory4: FC<CardCategory4Props> = ({
           className="object-cover w-full h-full rounded-2xl"
         />
         <div>
-          {index && (
+          {/* {index && (
             <Badge
               color={color as TwMainColor}
               name={index}
               className="absolute top-3 left-3"
             />
-          )}
+          )} */}
         </div>
         <span className="opacity-0 group-hover:opacity-100 absolute inset-0 bg-black bg-opacity-10 transition-opacity"></span>
       </div>
 
       <div className="flex items-center mt-5">
-        <div className={`w-10 h-10 ${getColorClass()} rounded-full`}></div>
+        {/* <div className={`w-10 h-10 ${getColorClass()} rounded-full`}></div> */}
         <div className="ml-3 truncate">
           <h2
             className={`text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-medium truncate`}
           >
             {name}
           </h2>
-          <span
+          {/* <span
             className={`block mt-1 text-sm text-neutral-6000 dark:text-neutral-400`}
           >
             {count} Articles
-          </span>
+          </span> */}
         </div>
       </div>
-    </Link>
+    </>
+    // </Link>
   );
 };
 

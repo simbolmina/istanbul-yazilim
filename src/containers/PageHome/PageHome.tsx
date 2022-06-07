@@ -27,7 +27,8 @@ import SectionMagazine7 from "./SectionMagazine7";
 import SectionMagazine8 from "./SectionMagazine8";
 import SectionMagazine9 from "./SectionMagazine9";
 import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
-import { BANKS } from "data/banks";
+import { SERVICES } from "data/services";
+import { BANKS, E_FATURA, SANAL_POS } from "data/taxonomies";
 
 //
 const POSTS: PostDataType[] = DEMO_POSTS;
@@ -63,7 +64,7 @@ const PageHome: React.FC = () => {
             <SectionSliderNewAuthors
               heading="Hizmetlerimiz"
               subHeading="Web ve Mobil uygulamalarınız için ihtiyacınız olan her şeyi burada bulabilirsiniz."
-              authors={BANKS.filter((_, i) => i < 10)}
+              authors={SERVICES.filter((_, i) => i < 10)}
               uniqueSliderClass="PageHome"
             />
           </div>
@@ -76,7 +77,7 @@ const PageHome: React.FC = () => {
             className="py-16 lg:py-28"
             heading="Banka Entegrasyonlarımız"
             subHeading="Çalıştığınız bankayı değiştirmeden sistemlerinizi web'e entegre edebilirsiniz."
-            categories={DEMO_CATEGORIES.filter((_, i) => i < 10)}
+            categories={BANKS.filter((_, i) => i < 10)}
             categoryCardType="card4"
             uniqueSliderClass="pageHome-section5"
           />
@@ -84,7 +85,7 @@ const PageHome: React.FC = () => {
             className="py-16 lg:py-28"
             heading="E-Fatura ve SMS Entegrasyonları"
             subHeading="İhtiyacınız olan aracı kurumlarla sizi biraraya getiriyoruz."
-            categories={DEMO_CATEGORIES.filter((_, i) => i < 10)}
+            categories={E_FATURA.filter((_, i) => i < 10)}
             categoryCardType="card4"
             uniqueSliderClass="pageHome-section5"
           />
@@ -92,7 +93,7 @@ const PageHome: React.FC = () => {
             className="py-16 lg:py-28"
             heading="Sanal POS Entegrasyonları"
             subHeading="Web'teki varlığınız için ihtiyaç duyduğunuz Sanal Poz hizmetlerine entegre çalışıyoruz."
-            categories={DEMO_CATEGORIES.filter((_, i) => i < 10)}
+            categories={SANAL_POS.filter((_, i) => i < 10)}
             categoryCardType="card4"
             uniqueSliderClass="pageHome-section5"
           />
