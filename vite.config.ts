@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "https://github.com/simbolmina/istanbul-yazilim/blob/produc/vite.config.ts",
+  base: "https://istanbul-yazilim.vercel.app/",
   // server: {
   //   host: true,
   // },
