@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import imgAdsDef from 'images/ads.png';
+import React, { FC } from "react";
+import imgAdsDef from "images/ads.png";
 
 export interface SectionAdsProps {
   className?: string;
@@ -7,17 +7,19 @@ export interface SectionAdsProps {
 }
 
 const SectionAds: FC<SectionAdsProps> = ({
-  className = '',
+  className = "",
   imgAds = imgAdsDef,
 }) => {
   return (
-    <a
-      href="/#"
-      className={`nc-SectionAds block text-center mx-auto ${className}`}
-    >
-      <span className="text-xs text-neutral-600">- Entegrasyonlarimiz -</span>
+    // <a
+    //   href="/#"
+    //   className={`nc-SectionAds block text-center mx-auto ${className}`}
+    // >
+    <div className="text-center">
+      <span className=" text-xs text-neutral-600 ">- Entegrasyonlarimiz -</span>
       <img className="mx-auto" src={imgAds} alt="" />
-    </a>
+    </div>
+    // </a>
   );
 };
 

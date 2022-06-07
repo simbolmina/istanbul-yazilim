@@ -52,7 +52,7 @@ const CardCategory4: FC<CardCategory4Props> = ({
         <NcImage
           src={thumbnail}
           // className="object-cover w-full h-full rounded-2x1"
-          className="object-none w-full h-full rounded-2x1"
+          className="object-contain w-full h-full rounded-2x1"
         />
         <div>
           {/* {index && (
