@@ -28,7 +28,7 @@ import SectionMagazine8 from "./SectionMagazine8";
 import SectionMagazine9 from "./SectionMagazine9";
 import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
 import { SERVICES } from "data/services";
-import { BANKS, E_FATURA, SANAL_POS } from "data/taxonomies";
+import { BANKS, E_FATURA, SANAL_POS, TEKNOLOJI } from "data/taxonomies";
 
 //
 const POSTS: PostDataType[] = DEMO_POSTS;
@@ -118,6 +118,19 @@ const PageHome: React.FC = () => {
             className="py-16 lg:py-28"
             posts={DEMO_POSTS_GALLERY.filter((_, i) => i < 6)}
           />
+          <div className="relative py-16">
+            <BackgroundSection />
+            <SectionBecomeAnAuthor />
+          </div>
+
+          <SectionSliderNewCategories
+            className="py-16 lg:py-28"
+            heading="Kullandığımız Teknolojiler"
+            subHeading="Web ve mobil uygulama geliştirilmesinde geniş yazılımcı kadromuzla birçok platformu ve teknolojiyi destekliyoruz. "
+            categories={TEKNOLOJI.filter((_, i) => i < 10)}
+            categoryCardType="card4"
+            uniqueSliderClass="pageHome-section5"
+          />
           <SectionMagazine1
             className="py-16 lg:py-28"
             posts={MAGAZINE1_POSTS}
@@ -142,10 +155,10 @@ const PageHome: React.FC = () => {
 
         <div className="container ">
           {/* === SECTION 9 === */}
-          <SectionMagazine8
+          {/* <SectionMagazine8
             className="py-16 lg:py-28"
             posts={DEMO_POSTS_AUDIO.filter((_, i) => i < 6)}
-          />
+          /> */}
 
           {/* === SECTION 9 === */}
           {/* <div className="relative py-16">
@@ -162,10 +175,10 @@ const PageHome: React.FC = () => {
           /> */}
 
           {/* === SECTION 8 === */}
-          <div className="relative py-16">
+          {/* <div className="relative py-16">
             <BackgroundSection />
             <SectionBecomeAnAuthor />
-          </div>
+          </div> */}
 
           {/* === SECTION 11 === */}
           {/* <SectionMagazine4
