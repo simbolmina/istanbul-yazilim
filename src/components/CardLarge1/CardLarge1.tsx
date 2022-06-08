@@ -1,13 +1,13 @@
-import { Transition } from '@headlessui/react';
-import PostCardSaveAction from 'components/PostCardSaveAction/PostCardSaveAction';
-import NcImage from 'components/NcImage/NcImage';
-import NextPrev from 'components/NextPrev/NextPrev';
-import PostCardLikeAndComment from 'components/PostCardLikeAndComment/PostCardLikeAndComment';
-import { PostDataType } from 'data/types';
-import React, { FC, Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import CardAuthor2 from 'components/CardAuthor2/CardAuthor2';
-import CategoryBadgeList from 'components/CategoryBadgeList/CategoryBadgeList';
+import { Transition } from "@headlessui/react";
+import PostCardSaveAction from "components/PostCardSaveAction/PostCardSaveAction";
+import NcImage from "components/NcImage/NcImage";
+import NextPrev from "components/NextPrev/NextPrev";
+import PostCardLikeAndComment from "components/PostCardLikeAndComment/PostCardLikeAndComment";
+import { PostDataType } from "data/types";
+import React, { FC, Fragment } from "react";
+import { Link } from "react-router-dom";
+import CardAuthor2 from "components/CardAuthor2/CardAuthor2";
+import CategoryBadgeList from "components/CategoryBadgeList/CategoryBadgeList";
 
 export interface CardLarge1Props {
   className?: string;
@@ -18,14 +18,22 @@ export interface CardLarge1Props {
 }
 
 const CardLarge1: FC<CardLarge1Props> = ({
-  className = '',
+  className = "",
   isShowing = true,
   post,
   onClickNext = () => {},
   onClickPrev = () => {},
 }) => {
-  const { featuredImage, title, date, categories, author, readingTime, href } =
-    post;
+  const {
+    featuredImage,
+    title,
+    date,
+    categories,
+    author,
+    readingTime,
+    href,
+    desc,
+  } = post;
 
   return (
     <Transition
@@ -48,6 +56,8 @@ const CardLarge1: FC<CardLarge1Props> = ({
               <span className="line-clamp-2" title={title}>
                 {title}
               </span>
+              <br />
+              <p style={{ fontWeight: 400, fontSize: 16 }}>{desc}</p>
             </h2>
 
             {/* <CardAuthor2 className="relative" author={author} date={date} /> */}

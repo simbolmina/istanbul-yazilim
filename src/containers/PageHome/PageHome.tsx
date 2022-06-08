@@ -112,16 +112,16 @@ const PageHome: React.FC = () => {
           </div> */}
 
           {/* === SECTION 4 === */}
-          <SectionMagazine1
-            className="py-16 lg:py-28"
-            posts={MAGAZINE1_POSTS}
-            tabs={MAGAZINE1_TABS}
-          />
 
           {/* === SECTION 7 === */}
           <SectionMagazine7
             className="py-16 lg:py-28"
             posts={DEMO_POSTS_GALLERY.filter((_, i) => i < 6)}
+          />
+          <SectionMagazine1
+            className="py-16 lg:py-28"
+            posts={MAGAZINE1_POSTS}
+            tabs={MAGAZINE1_TABS}
           />
         </div>
 

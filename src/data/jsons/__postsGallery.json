@@ -51,7 +51,7 @@
     "index": 31002,
     "id": "dffe0224-ebff-4803-bb66-e8dd128656284",
     "featuredImage": "https://images.unsplash.com/photo-1418854982207-12f710b74003?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "title": "BLW",
+    "title": "Baby Led Weaning - BLW",
     "desc": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "date": "May 20, 2021",
     "href": "/single-gallery/this-is-single-slug",
@@ -74,7 +74,7 @@
     "index": 41001,
     "id": "5ac7cb90-4694-42e8-8883-16372f711eaa8",
     "featuredImage": "https://images.unsplash.com/photo-1581610489881-f316ffcf0424?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "title": "Uygulama 2 Ornekleri",
+    "title": "Border for Clubhouse Avatar",
     "desc": "Fusce consequat. Nulla nisl. Nunc nisl.",
     "date": "May 20, 2021",
     "href": "/single-gallery/this-is-single-slug",
@@ -87,18 +87,16 @@
     "categoriesId": [5, 14],
     "postType": "gallery",
     "galleryImgs": [
-      "https://images.pexels.com/photos/2394446/pexels-photo-2394446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/7026306/pexels-photo-7026306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/4871012/pexels-photo-4871012.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/3016353/pexels-photo-3016353.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/4254553/pexels-photo-4254553.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      "/images/apps/border/1.jpg",
+      "/images/apps/border/2.jpg",
+      "/images/apps/border/3.jpg"
     ]
   },
   {
     "index": 51002,
     "id": "f82a8455-3a14-4af9-b6d2-ac6cd74e0d07c",
     "featuredImage": "https://images.unsplash.com/photo-1448518340475-e3c680e9b4be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1951&q=80",
-    "title": "Uygulama 3 Ornekleri",
+    "title": "Highlight Cover Maker Storyart",
     "desc": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
     "date": "May 20, 2021",
     "href": "/single-gallery/this-is-single-slug",
@@ -111,18 +109,17 @@
     "categoriesId": [10, 19],
     "postType": "gallery",
     "galleryImgs": [
-      "https://images.pexels.com/photos/3651577/pexels-photo-3651577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/8065131/pexels-photo-8065131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/5282243/pexels-photo-5282243.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/4340670/pexels-photo-4340670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/5043948/pexels-photo-5043948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      "/images/apps/highlight/1.jpg",
+      "/images/apps/highlight/2.jpg",
+      "/images/apps/highlight/3.jpg",
+      "/images/apps/highlight/3.jpg"
     ]
   },
   {
     "index": 61002,
     "id": "54c11c92-049f-4353-8cdb-f7fsec70d3ae75",
     "featuredImage": "https://images.pexels.com/photos/4397925/pexels-photo-4397925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "title": "Uygulama 4 Ornekleri",
+    "title": "Icon Themes - Aesthetic Icon",
     "desc": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "date": "May 20, 2021",
     "href": "/single-gallery/this-is-single-slug",
@@ -135,11 +132,10 @@
     "categoriesId": [9, 18],
     "postType": "gallery",
     "galleryImgs": [
-      "https://images.pexels.com/photos/4492596/pexels-photo-4492596.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/7891883/pexels-photo-7891883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/2914152/pexels-photo-2914152.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      "/images/apps/icon/1.jpg",
+      "/images/apps/icon/2.jpg",
+      "/images/apps/icon/3.jpg",
+      "/images/apps/icon/3.jpg"
     ]
   },
   {

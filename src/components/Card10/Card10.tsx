@@ -1,17 +1,17 @@
-import React, { FC, useState } from 'react';
-import PostCardSaveAction from 'components/PostCardSaveAction/PostCardSaveAction';
-import { PostDataType } from 'data/types';
-import { Link } from 'react-router-dom';
-import CategoryBadgeList from 'components/CategoryBadgeList/CategoryBadgeList';
-import PostFeaturedMedia from 'components/PostFeaturedMedia/PostFeaturedMedia';
-import PostCardMetaV2 from 'components/PostCardMeta/PostCardMetaV2';
+import React, { FC, useState } from "react";
+import PostCardSaveAction from "components/PostCardSaveAction/PostCardSaveAction";
+import { PostDataType } from "data/types";
+import { Link } from "react-router-dom";
+import CategoryBadgeList from "components/CategoryBadgeList/CategoryBadgeList";
+import PostFeaturedMedia from "components/PostFeaturedMedia/PostFeaturedMedia";
+import PostCardMetaV2 from "components/PostCardMeta/PostCardMetaV2";
 
 export interface Card10Props {
   className?: string;
   post: PostDataType;
 }
 
-const Card10: FC<Card10Props> = ({ className = 'h-full', post }) => {
+const Card10: FC<Card10Props> = ({ className = "h-full", post }) => {
   const { href, categories } = post;
   const [isHover, setIsHover] = useState(false);
 
