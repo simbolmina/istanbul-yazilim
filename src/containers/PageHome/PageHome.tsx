@@ -131,14 +131,10 @@ const PageHome: React.FC = () => {
             categoryCardType="card4"
             uniqueSliderClass="pageHome-section5"
           />
-          <SectionMagazine1
-            className="py-16 lg:py-28"
-            posts={MAGAZINE1_POSTS}
-            tabs={MAGAZINE1_TABS}
-          />
         </div>
 
         {/* === SECTION 11 === */}
+
         <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
           <div className="relative container">
             <SectionGridPosts
@@ -152,8 +148,12 @@ const PageHome: React.FC = () => {
             />
           </div>
         </div>
-
         <div className="container ">
+          <SectionMagazine1
+            className="py-16 lg:py-28"
+            posts={MAGAZINE1_POSTS}
+            tabs={MAGAZINE1_TABS}
+          />
           {/* === SECTION 9 === */}
           {/* <SectionMagazine8
             className="py-16 lg:py-28"
