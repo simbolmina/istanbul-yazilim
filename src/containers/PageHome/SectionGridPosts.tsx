@@ -12,6 +12,7 @@ import Card11 from "components/Card11/Card11";
 import Card14 from "components/Card14/Card14";
 import Card10V2 from "components/Card10/Card10V2";
 import Card15Podcast from "components/Card15Podcast/Card15Podcast";
+import { Link } from "react-router-dom";
 
 // OTHER DEMO WILL PASS PROPS
 const postsDemo: PostDataType[] = DEMO_POSTS.filter((_, i) => i > 7 && i < 17);
@@ -87,7 +88,9 @@ const SectionGridPosts: FC<SectionGridPostsProps> = ({
         {posts.map((post) => renderCard(post))}
       </div>
       <div className="flex mt-20 justify-center items-center">
-        <ButtonPrimary>Show me more</ButtonPrimary>
+        <Link to="/contact">
+          <ButtonPrimary>Bizimle Çalışın </ButtonPrimary>
+        </Link>
       </div>
     </div>
   );

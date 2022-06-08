@@ -126,13 +126,15 @@ const PostTypeFeaturedIcon: FC<PostTypeFeaturedIconProps> = ({
       data-nc-id="PostTypeFeaturedIcon"
       onClick={onClick}
     >
-      {!!postType && postType !== "standard" && (
-        <span
-          className={`bg-neutral-900 bg-opacity-60 rounded-full flex  items-center justify-center text-xl text-white border border-white ${wrapSize}`}
-        >
-          {renderMediaIcon()}
-        </span>
-      )}
+      {!!postType &&
+        postType !== "standard" &&
+        ""
+        // <span
+        //   className={`bg-neutral-900 bg-opacity-60 rounded-full flex  items-center justify-center text-xl text-white border border-white ${wrapSize}`}
+        // >
+        //   {renderMediaIcon()}
+        // </span>
+      }
     </div>
   );
 };

@@ -19,7 +19,8 @@ const Card10V2: FC<Card10V2Props> = ({ className = "h-full", post }) => {
     <div
       className={`nc-Card10V2 relative flex flex-col ${className}`}
       data-nc-id="Card10V2"
-      onMouseEnter={() => setIsHover(true)}
+      // onMouseEnter={() => setIsHover(true)}
+      onMouseEnter={() => setIsHover(false)}
       onMouseLeave={() => setIsHover(false)}
     >
       <div className="block group rounded-3xl flex-shrink-0 relative w-full aspect-w-16 aspect-h-12 sm:aspect-h-9 overflow-hidden will-change-transform">
@@ -27,14 +28,16 @@ const Card10V2: FC<Card10V2Props> = ({ className = "h-full", post }) => {
           <PostFeaturedMedia post={post} isHover={isHover} />
         </div>
 
-        <Link
-          to={href}
+        <a
+          href={href}
+          target="_blank"
+          rel="nonereferrer"
           className="absolute inset-0 bg-neutral-900 bg-opacity-20 opacity-0 transition-opacity"
-        ></Link>
+        ></a>
       </div>
       <div className="absolute top-3 inset-x-3 flex justify-between items-start space-x-4">
-        <CategoryBadgeList categories={categories} />
-        <PostCardSaveAction postData={post} />
+        {/* <CategoryBadgeList categories={categories} /> */}
+        {/* <PostCardSaveAction postData={post} /> */}
       </div>
 
       <div className="space-y-2.5 mt-4 px-4">

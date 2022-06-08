@@ -139,19 +139,19 @@ const PageHome: React.FC = () => {
         </div>
 
         {/* === SECTION 11 === */}
-        {/* <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
+        <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
           <div className="relative container">
             <SectionGridPosts
               className="py-16 lg:py-28"
               headingIsCenter
               postCardName="card10V2"
-              heading="Explore latest video articles"
-              subHeading="Hover on the post card and preview video 🥡"
+              heading="Referanslarımızdan Bazıları"
+              subHeading="Sayfaları ziyaret etmek için görsellere tıklayınız."
               posts={DEMO_POSTS_VIDEO.filter((_, i) => i > 5 && i < 12)}
               gridClass="md:grid-cols-2 lg:grid-cols-3"
             />
           </div>
-        </div> */}
+        </div>
 
         <div className="container ">
           {/* === SECTION 9 === */}
