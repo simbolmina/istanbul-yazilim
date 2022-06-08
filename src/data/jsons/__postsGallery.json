@@ -51,7 +51,7 @@
     "index": 31002,
     "id": "dffe0224-ebff-4803-bb66-e8dd128656284",
     "featuredImage": "https://images.unsplash.com/photo-1418854982207-12f710b74003?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "title": "Uygulama 1 Ornekleri",
+    "title": "Baby Led Weaning - BLW",
     "desc": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "date": "May 20, 2021",
     "href": "/single-gallery/this-is-single-slug",
@@ -64,11 +64,10 @@
     "categoriesId": [4, 13],
     "postType": "gallery",
     "galleryImgs": [
-      "https://images.pexels.com/photos/1457812/pexels-photo-1457812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/4254555/pexels-photo-4254555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/4983184/pexels-photo-4983184.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      "/images/apps/blw/1.jpg",
+      "/images/apps/blw/2.jpg",
+      "/images/apps/blw/3.jpg",
+      "/images/apps/blw/4.jpg"
     ]
   },
   {
