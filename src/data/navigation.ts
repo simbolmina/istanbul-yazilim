@@ -297,7 +297,7 @@ const demoChildMenus: NavItemType[] = [
   },
   {
     id: ncNanoId(),
-    href: "/home-demo-2",
+    href: "/services",
     name: "Home Demo 2",
   },
   {
@@ -381,14 +381,14 @@ export const NAVIGATION_DEMO: NavItemType[] = [
 
   {
     id: ncNanoId(),
-    href: "blog",
+    href: "/archive/the-demo-archive-slug",
     name: "Blog",
     // type: 'megaMenu',
     // megaMenu: megaMenu3ItemDemo,
   },
   {
     id: ncNanoId(),
-    href: "#",
+    href: "/single/this-is-single-slug",
     name: "E-Ticaret Paketleri",
     // type: 'dropdown',
     // children: templateChilds,

@@ -18,6 +18,7 @@ import {
 import { DEMO_CATEGORIES } from "data/taxonomies";
 import { DEMO_AUTHORS } from "data/authors";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
+import SectionBecomeAnAuthor2 from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
 import SectionSliderNewCategories from "components/SectionSliderNewCategories/SectionSliderNewCategories";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
 import SectionMagazine4 from "./SectionMagazine4";
@@ -114,14 +115,14 @@ const PageHome: React.FC = () => {
           {/* === SECTION 4 === */}
 
           {/* === SECTION 7 === */}
-          <SectionMagazine7
-            className="py-16 lg:py-28"
-            posts={DEMO_POSTS_GALLERY.filter((_, i) => i < 6)}
-          />
           <div className="relative py-16">
             <BackgroundSection />
             <SectionBecomeAnAuthor />
           </div>
+          <SectionMagazine7
+            className="py-16 lg:py-28"
+            posts={DEMO_POSTS_GALLERY.filter((_, i) => i < 6)}
+          />
 
           <SectionSliderNewCategories
             className="py-16 lg:py-28"
@@ -148,12 +149,13 @@ const PageHome: React.FC = () => {
             />
           </div>
         </div>
+
         <div className="container ">
-          <SectionMagazine1
+          {/* <SectionMagazine1
             className="py-16 lg:py-28"
             posts={MAGAZINE1_POSTS}
             tabs={MAGAZINE1_TABS}
-          />
+          /> */}
           {/* === SECTION 9 === */}
           {/* <SectionMagazine8
             className="py-16 lg:py-28"
@@ -173,12 +175,21 @@ const PageHome: React.FC = () => {
             className="py-16 lg:py-28"
             authors={DEMO_AUTHORS.filter((_, i) => i < 10)}
           /> */}
+          <br />
+          <br />
+          <br />
+          <br />
 
           {/* === SECTION 8 === */}
-          {/* <div className="relative py-16">
+          <div className="relative py-16">
             <BackgroundSection />
-            <SectionBecomeAnAuthor />
-          </div> */}
+            <SectionBecomeAnAuthor2 />
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
 
           {/* === SECTION 11 === */}
           {/* <SectionMagazine4

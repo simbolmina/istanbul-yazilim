@@ -51,7 +51,7 @@ export interface LocationStates {
   "/theme-fuchsia-blueGrey"?: {};
   //
   "/home-demo-1"?: {};
-  "/home-demo-2"?: {};
+  "/services"?: {};
   "/home-demo-3"?: {};
   "/home-demo-4"?: {};
   "/home-demo-5"?: {};
