@@ -2,11 +2,13 @@ import React, { FC, ReactNode, useEffect } from "react";
 import { PostDataType, TaxonomyType } from "data/types";
 import { SINGLE } from "data/single";
 import SingleContent from "./SingleContent";
+import SingleContent2 from "./SingleContentDemo2";
 import { CommentType } from "components/CommentCard/CommentCard";
 import SingleRelatedPosts from "./SingleRelatedPosts";
 import { useAppDispatch } from "app/hooks";
 import { changeCurrentPage } from "app/pages/pages";
 import SingleHeader from "./SingleHeader";
+import SingleContentDemo2 from "./SingleContentDemo2";
 
 export interface PageSingleTemplate3Props {
   className?: string;
@@ -66,7 +68,10 @@ const PageSingleTemplate3: FC<PageSingleTemplate3Props> = ({
         </div>
 
         {/* RELATED POSTS */}
-        <SingleRelatedPosts />
+        {/* <SingleRelatedPosts /> */}
+        <br />
+        <br />
+        <br />
       </div>
     </>
   );

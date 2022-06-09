@@ -19,7 +19,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
       data-nc-id="PageAbout"
     >
       <Helmet>
-        <title>About || Blog Magazine React Template</title>
+        <title>Hakkımızda || İstanbul Yazılım</title>
       </Helmet>
 
       {/* ======== BG GLASS ======== */}
@@ -28,9 +28,9 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
       <div className="container py-16 lg:py-28 space-y-16 lg:space-y-28">
         <SectionHero
           rightImg={rightImg}
-          heading="👋 About Us."
+          heading="👋 Biz Kimiz?"
           btnText=""
-          subHeading="We’re impartial and independent, and every day we create distinctive, world-class programmes and content which inform, educate and entertain millions of people in the around the world."
+          subHeading="İstanbul Yazılım olarak 2017'den beri Türkiye ve dünyanın birçok yerindeki müşterilerimizin ihtiyaç duyduğu web siteleri ve uygulamalarını gerçekleştiriyoruz."
         />
 
         <SectionFounder />

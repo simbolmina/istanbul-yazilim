@@ -6,6 +6,7 @@ import SingleCommentForm from "./SingleCommentForm";
 import SingleCommentLists from "./SingleCommentLists";
 import SingleContentDemo from "./SingleContentDemo";
 import { useLocation } from "react-router";
+import SingleContentDemo2 from "./SingleContentDemo2";
 
 export interface SingleContentProps {
   data: SinglePageType;
@@ -41,24 +42,24 @@ const SingleContent: FC<SingleContentProps> = ({ data }) => {
       >
         {/* THIS IS THE DEMP CONTENT */}
         {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
-        <SingleContentDemo />
+        <SingleContentDemo2 />
       </div>
 
       {/* TAGS */}
-      <div className="max-w-screen-md mx-auto flex flex-wrap">
+      {/* <div className="max-w-screen-md mx-auto flex flex-wrap">
         {tags.map((item) => (
           <Tag hideCount key={item.id} tag={item} className="mr-2 mb-2" />
         ))}
-      </div>
+      </div> */}
 
       {/* AUTHOR */}
-      <div className="max-w-screen-md mx-auto border-b border-t border-neutral-100 dark:border-neutral-700"></div>
-      <div className="max-w-screen-md mx-auto ">
+      {/* <div className="max-w-screen-md mx-auto border-b border-t border-neutral-100 dark:border-neutral-700"></div> */}
+      {/* <div className="max-w-screen-md mx-auto ">
         <SingleAuthor author={author} />
-      </div>
+      </div> */}
 
       {/* COMMENT FORM */}
-      <div
+      {/* <div
         id="comment"
         ref={commentRef}
         className="max-w-screen-md mx-auto pt-5"
@@ -70,12 +71,12 @@ const SingleContent: FC<SingleContentProps> = ({ data }) => {
           onClickSubmit={(id) => console.log(id)}
           onClickCancel={(id) => console.log(id)}
         />
-      </div>
+      </div> */}
 
       {/* COMMENTS LIST */}
-      <div className="max-w-screen-md mx-auto">
+      {/* <div className="max-w-screen-md mx-auto">
         <SingleCommentLists comments={comments} />
-      </div>
+      </div> */}
     </div>
   );
 };

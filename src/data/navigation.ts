@@ -388,7 +388,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   },
   {
     id: ncNanoId(),
-    href: "/single/this-is-single-slug",
+    href: "/single-sidebar/this-is-single-slug",
     name: "E-Ticaret Paketleri",
     // type: 'dropdown',
     // children: templateChilds,
