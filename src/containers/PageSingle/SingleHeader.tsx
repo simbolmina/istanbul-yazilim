@@ -26,11 +26,11 @@ const SingleHeader: FC<SingleHeaderProps> = ({
   return (
     <>
       <Helmet>
-        <title>Single || Blog Magazine React Template</title>
+        <title>E-Ticaret Paketleri || İstanbul Yazılım</title>
       </Helmet>
       <div className={`nc-SingleHeader ${className}`}>
         <div className="space-y-5">
-          <CategoryBadgeList itemClass="!px-3" categories={categories} />
+          {/* <CategoryBadgeList itemClass="!px-3" categories={categories} /> */}
           <SingleTitle mainClass={titleMainClass} title={title} />
           {!!desc && !hiddenDesc && (
             <span className="block text-base text-neutral-500 md:text-lg dark:text-neutral-400 pb-1">
@@ -39,14 +39,14 @@ const SingleHeader: FC<SingleHeaderProps> = ({
           )}
           <div className="w-full border-b border-neutral-100 dark:border-neutral-800"></div>
           <div className="flex flex-col sm:flex-row justify-between sm:items-end space-y-5 sm:space-y-0 sm:space-x-5">
-            <PostMeta2
+            {/* <PostMeta2
               size="large"
               className="leading-none flex-shrink-0"
               meta={pageData}
               hiddenCategories
               avatarRounded="rounded-full shadow-inner"
             />
-            <SingleMetaAction2 meta={pageData} />
+            <SingleMetaAction2 meta={pageData} /> */}
           </div>
         </div>
       </div>
