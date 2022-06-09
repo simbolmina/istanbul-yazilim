@@ -20,24 +20,24 @@ const Card5: FC<Card5Props> = ({
       data-nc-id="Card5"
       data-nc-post-id={id}
     >
-      <Link to={href} className="absolute inset-0 rounded-lg"></Link>
+      {/* <Link to={href} className="absolute inset-0 rounded-lg"></Link> */}
 
       <div className="flex flex-col">
-        <CategoryBadgeList categories={categories} />
+        {/* <CategoryBadgeList categories={categories} /> */}
         <h2
           className="block text-base font-semibold text-neutral-800 dark:text-neutral-300 my-4"
           title={title}
         >
-          <Link to={href} className="line-clamp-2" title={title}>
+          <span className="line-clamp-2" title={title}>
             {title}
-          </Link>
+          </span>
         </h2>
-        <CardAuthor2
+        {/* <CardAuthor2
           className="relative mt-auto"
           readingTime={readingTime}
           author={author}
           date={date}
-        />
+        /> */}
       </div>
     </div>
   );

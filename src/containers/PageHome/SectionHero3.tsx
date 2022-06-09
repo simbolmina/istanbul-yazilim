@@ -27,10 +27,10 @@ const SectionHero3: FC<SectionHero3Props> = ({ posts, className = "" }) => {
             <span className="block text-sm sm:text-base text-neutral-300 mt-3 sm:mt-5">
               <span className="line-clamp-2">{desc}</span>
             </span>
-            <ButtonSecondary className="mt-5 sm:mt-8" href={href}>
+            {/* <ButtonSecondary className="mt-5 sm:mt-8" href={href}>
               <span> Read more</span>
               <i className="ml-3 text-xl las la-arrow-right"></i>
-            </ButtonSecondary>
+            </ButtonSecondary> */}
           </div>
         </div>
       </div>

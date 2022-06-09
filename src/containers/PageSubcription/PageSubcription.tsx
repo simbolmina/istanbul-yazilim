@@ -19,7 +19,7 @@ export interface PricingItem {
 
 const pricings: PricingItem[] = [
   {
-    isPopular: false,
+    isPopular: true,
     name: "Starter",
     pricing: "$5",
     per: "/mo",
@@ -40,7 +40,7 @@ const pricings: PricingItem[] = [
     desc: ` Literally you probably haven't heard of them jean shorts.`,
   },
   {
-    isPopular: false,
+    isPopular: true,
     name: "Plus",
     pricing: "$25",
     per: "/mo",
@@ -65,11 +65,11 @@ const PageSubcription: FC<PageSubcriptionProps> = ({ className = "" }) => {
             : "border-neutral-100 dark:border-neutral-700"
         }`}
       >
-        {pricing.isPopular && (
-          <span className="bg-primary-500 text-white px-3 py-1 tracking-widest text-xs absolute right-3 top-3 rounded-full z-10">
-            POPULAR
-          </span>
-        )}
+        {pricing.isPopular &&
+          // <span className="bg-primary-500 text-white px-3 py-1 tracking-widest text-xs absolute right-3 top-3 rounded-full z-10">
+          //   POPULAR
+          // </span>
+          ""}
         <div className="mb-8">
           <h3 className="block text-sm uppercase tracking-widest text-neutral-6000 dark:text-neutral-300 mb-2 font-medium">
             {pricing.name}
@@ -115,9 +115,9 @@ const PageSubcription: FC<PageSubcriptionProps> = ({ className = "" }) => {
       data-nc-id="PageSubcription"
     >
       <LayoutPage
-        subHeading="Pricing to fit the needs of any companie size."
+        subHeading="İhtiyacınız olan her hizmeti burada en uygun fiyata bulabilirsiniz."
         headingEmoji="💎"
-        heading="Subscription"
+        heading="Hizmetlerimiz"
       >
         <section className="text-neutral-600 text-sm md:text-base overflow-hidden">
           <div className="grid lg:grid-cols-3 gap-5 xl:gap-8">

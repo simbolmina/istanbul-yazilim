@@ -18,7 +18,7 @@ import {
 import { DEMO_CATEGORIES } from "data/taxonomies";
 import { DEMO_AUTHORS } from "data/authors";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
-import SectionBecomeAnAuthor2 from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
+import SectionBecomeAnAuthor2 from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor2";
 import SectionSliderNewCategories from "components/SectionSliderNewCategories/SectionSliderNewCategories";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
 import SectionMagazine4 from "./SectionMagazine4";
