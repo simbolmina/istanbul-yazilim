@@ -396,7 +396,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/about",
-    name: "Hakkimizda",
+    name: "Hakkımızda",
     // type: 'dropdown',
     // children: otherPageChildMenus,
   },
