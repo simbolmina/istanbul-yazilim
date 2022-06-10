@@ -7,6 +7,8 @@ import SocialsList from "components/SocialsList/SocialsList";
 import Textarea from "components/Textarea/Textarea";
 import { Helmet } from "react-helmet";
 import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
+import sgMail from "@sendgrid/mail";
+// sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export interface PageContactProps {
   className?: string;
@@ -28,10 +30,17 @@ const info = [
 ];
 
 const PageContact: FC<PageContactProps> = ({ className = "" }) => {
+  const msg = {
+    to: "test@example.com", // Change to your recipient
+    from: "test@example.com", // Change to your verified sender
+    subject: "Sending with SendGrid is Fun",
+    text: "and easy to do anywhere, even with Node.js",
+    html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+  };
   return (
     <div className={`nc-PageContact ${className}`} data-nc-id="PageContact">
       <Helmet>
-        <title>Contact || Blog Magazine React Template</title>
+        <title>İletişim || İstanbul Yazılım</title>
       </Helmet>
       <LayoutPage
         subHeading="Drop us message and we will get back for you."

@@ -36,6 +36,7 @@ import {
   TEKNOLOJI,
   ORTAKLAR,
 } from "data/taxonomies";
+import FloatingWhatsApp from "react-floating-whatsapp";
 
 //
 const POSTS: PostDataType[] = DEMO_POSTS;
@@ -51,6 +52,16 @@ const PageHome: React.FC = () => {
       <Helmet>
         <title>İstanbul Yazılım</title>
       </Helmet>
+
+      <FloatingWhatsApp
+        styles={{ zIndex: 5000 }}
+        phoneNumber="+905300334018"
+        accountName="Temsilci"
+        allowClickAway
+        notification
+        notificationDelay={60000} // 1 minute
+        notificationSound
+      />
 
       {/* ======== ALL SECTIONS ======== */}
       <div className="relative overflow-hidden">
