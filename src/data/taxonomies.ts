@@ -3,6 +3,7 @@ import __taxonomiesBank from "./jsons/__taxonomies_banks.json";
 import __taxonomiesEfatura from "./jsons/__taxonomies_efatura.json";
 import __taxonomiesSanalPos from "./jsons/__taxonomies_sanal_pos.json";
 import __taxonomiesTeknoloji from "./jsons/__taxonomies_teknolojiler.json";
+import __taxonomiesOrtaklar from "./jsons/__taxonomies_ortaklar.json";
 
 import { TaxonomyType } from "./types";
 
@@ -27,10 +28,22 @@ const TEKNOLOJI: TaxonomyType[] = __taxonomiesTeknoloji.map((item) => ({
   ...item,
   taxonomy: "category",
 }));
+const ORTAKLAR: TaxonomyType[] = __taxonomiesOrtaklar.map((item) => ({
+  ...item,
+  taxonomy: "category",
+}));
 
 const DEMO_TAGS: TaxonomyType[] = __taxonomies.map((item) => ({
   ...item,
   taxonomy: "tag",
 }));
 
-export { DEMO_CATEGORIES, DEMO_TAGS, BANKS, E_FATURA, SANAL_POS, TEKNOLOJI };
+export {
+  DEMO_CATEGORIES,
+  DEMO_TAGS,
+  BANKS,
+  E_FATURA,
+  SANAL_POS,
+  TEKNOLOJI,
+  ORTAKLAR,
+};

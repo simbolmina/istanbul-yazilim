@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "laravel",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/teknolojiler/laravel.png",
+    "count": 13,
+    "color": "indigo"
+  },
+  {
+    "id": 2,
+    "name": "react",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/teknolojiler/react.png",
+    "count": 16,
+    "color": "red"
+  },
+  {
+    "id": 3,
+    "name": "flutter",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/teknolojiler/flutter.png",
+    "count": 15,
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "swift",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/teknolojiler/swift.png",
+    "count": 21,
+    "color": "pink"
+  },
+  {
+    "id": 5,
+    "name": "jquery",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "/images/teknolojiler/jquery.png",
+    "count": 16,
+    "color": "pink"
+  }
+]
