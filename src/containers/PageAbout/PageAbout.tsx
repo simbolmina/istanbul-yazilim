@@ -7,6 +7,8 @@ import { Helmet } from "react-helmet";
 import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
 import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
 import BackgroundSection from "components/BackgroundSection/BackgroundSection";
+import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
+import SectionBecomeAnAuthor3 from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor3";
 
 export interface PageAboutProps {
   className?: string;
@@ -40,7 +42,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
           <SectionStatistic />
         </div>
 
-        <SectionSubscribe2 />
+        <SectionBecomeAnAuthor3 />
       </div>
     </div>
   );

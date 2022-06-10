@@ -56,7 +56,7 @@ const PageSingleTemplate3: FC<PageSingleTemplate3Props> = ({
             <div className="hidden md:block absolute top-0 left-0 bottom-0 w-1/5 from-neutral-900 dark:from-black bg-gradient-to-r"></div>
             <img
               className="block w-full h-full object-cover"
-              src="/public/images/web-development.jpg"
+              src="/images/web-development.jpg"
               alt=""
             />
           </div>
