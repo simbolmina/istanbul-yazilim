@@ -381,8 +381,8 @@ export const NAVIGATION_DEMO: NavItemType[] = [
 
   {
     id: ncNanoId(),
-    href: "/archive/the-demo-archive-slug",
-    name: "Blog",
+    href: "#referans",
+    name: "Referanslarımız",
     // type: 'megaMenu',
     // megaMenu: megaMenu3ItemDemo,
   },

@@ -60,7 +60,7 @@ const PageHome: React.FC = () => {
           />
 
           {/* === SECTION  === */}
-          <div className="relative py-16">
+          <div className="relative py-16" id="hizmet">
             <BackgroundSection />
             <SectionSliderNewAuthors
               heading="Hizmetlerimiz"
@@ -119,38 +119,41 @@ const PageHome: React.FC = () => {
             <BackgroundSection />
             <SectionBecomeAnAuthor />
           </div>
+
+          {/* === SECTION 11 === */}
+
+          <div
+            className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100"
+            id="referans"
+          >
+            <div className="relative container">
+              <SectionGridPosts
+                className="py-16 lg:py-28"
+                headingIsCenter
+                postCardName="card10V2"
+                heading="Referanslarımızdan Bazıları"
+                subHeading="Sayfaları ziyaret etmek için görsellere tıklayınız."
+                posts={DEMO_POSTS_VIDEO.filter((_, i) => i > 5 && i < 12)}
+                gridClass="md:grid-cols-2 lg:grid-cols-3"
+              />
+            </div>
+          </div>
+
           <SectionMagazine7
             className="py-16 lg:py-28"
             posts={DEMO_POSTS_GALLERY.filter((_, i) => i < 6)}
           />
 
-          <SectionSliderNewCategories
-            className="py-16 lg:py-28"
-            heading="Kullandığımız Teknolojiler"
-            subHeading="Web ve mobil uygulama geliştirilmesinde geniş yazılımcı kadromuzla birçok platformu ve teknolojiyi destekliyoruz. "
-            categories={TEKNOLOJI.filter((_, i) => i < 10)}
-            categoryCardType="card4"
-            uniqueSliderClass="pageHome-section5"
-          />
-        </div>
-
-        {/* === SECTION 11 === */}
-
-        <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
-          <div className="relative container">
-            <SectionGridPosts
+          <div className="container ">
+            <SectionSliderNewCategories
               className="py-16 lg:py-28"
-              headingIsCenter
-              postCardName="card10V2"
-              heading="Referanslarımızdan Bazıları"
-              subHeading="Sayfaları ziyaret etmek için görsellere tıklayınız."
-              posts={DEMO_POSTS_VIDEO.filter((_, i) => i > 5 && i < 12)}
-              gridClass="md:grid-cols-2 lg:grid-cols-3"
+              heading="Kullandığımız Teknolojiler"
+              subHeading="Web ve mobil uygulama geliştirilmesinde geniş yazılımcı kadromuzla birçok platformu ve teknolojiyi destekliyoruz. "
+              categories={TEKNOLOJI.filter((_, i) => i < 10)}
+              categoryCardType="card4"
+              uniqueSliderClass="pageHome-section5"
             />
           </div>
-        </div>
-
-        <div className="container ">
           {/* <SectionMagazine1
             className="py-16 lg:py-28"
             posts={MAGAZINE1_POSTS}
