@@ -24,7 +24,7 @@ const Card10: FC<Card10Props> = ({ className = "h-full", post }) => {
     >
       <div className="">
         <div>
-          <div className="block  group rounded-3xl flex-shrink-0 relative w-full aspect-w-9 aspect-h-7 sm:aspect-h-15 overflow-hidden will-change-transform">
+          <div className="block group rounded-3xl flex-shrink-0 relative w-full aspect-w-9 aspect-h-15 overflow-hidden will-change-transform">
             <div>
               <PostFeaturedMedia post={post} isHover={isHover} />
             </div>
